@@ -1,0 +1,119 @@
+{
+  "Field": {
+    "Admission Record": {
+      "Basic Patient Information": "Basic information of the patient, including name, gender, age, etc.",
+      "Record Time": "Time when the admission record is written.",
+      "Admission Time": "Time when the patient is admitted to the hospital.",
+      "Chief Complaint": "The main symptom (or sign) that led the patient to seek medical attention and its duration.",
+      "History of Present Illness": "A detailed account of the onset, evolution, and treatment of the patient's current illness, written in chronological order. Content includes the circumstances of onset, characteristics of main symptoms and their development and changes, accompanying symptoms, treatment process and results after onset, changes in general conditions such as sleep and diet, and positive or negative information relevant for differential diagnosis.",
+      "Past Medical History": "The patient's past health and disease conditions. Content includes past general health status, disease history, infectious disease history, vaccination history, surgery/trauma history, blood transfusion history, food or drug allergy history, etc.",
+      "Personal History": "Records the patient's birthplace and long-term residence, lifestyle habits and presence of any addictions such as smoking, alcohol, or drugs, occupation and working conditions, history of exposure to industrial toxins, dust, or radioactive materials, and history of extramarital affairs.",
+      "Obstetric History": "The patient's marital status, age at marriage, spouse's health status, presence of children, etc. For example, a female's fertility history can be represented by four Arabic numerals in order, such as 1 term delivery, 0 preterm delivery, 1 abortion, 1 living child, recorded as 1-0-1-1.",
+      "Menstrual History": "For female patients, record the age at menarche, menstrual cycle duration (days), interval between cycles (days), date of last menstrual period (or age at menopause), menstrual flow, dysmenorrhea, etc.",
+      "Family History": "Health status of the patient's parents, siblings, whether they have any illness similar to the patient's, and any diseases with a hereditary tendency in the family.",
+      "Physical Examination": "The doctor's objective assessment of the patient's condition using their senses and simple examination tools, recorded systematically. Content includes temperature, pulse, respiration, blood pressure, general condition, skin and mucous membranes, superficial lymph nodes throughout the body, head and its organs, neck, chest (thorax, lungs, heart, blood vessels), abdomen (liver, spleen, etc.), rectum and anus, external genitalia, spine, limbs, nervous system, etc.",
+      "Specialty Examination": "Records signs relevant to the specialty as needed, such as an ophthalmology specialty examination including visual acuity, eyelids, lacrimal apparatus, intraocular pressure, fundus, etc.",
+      "Auxiliary Examinations": "Key examinations and their results related to the current illness performed before admission, recorded in chronological order by examination type. If examinations were done at another medical institution, the name of that institution and the examination number should be stated.",
+      "Preliminary Diagnosis": "The diagnosis made by the attending physician based on a comprehensive analysis of the patient's condition at the time of admission. If there are multiple preliminary diagnoses, they should be listed in order of importance. For undiagnosed cases, the most likely diagnoses should be listed.",
+      "Admission Diagnosis": "The diagnosis confirmed by the attending physician or higher during the first ward round after the patient's admission, which must be completed within 48 hours of admission.",
+      "Therapeutic Principle and Method": "Therapeutic principles are the guidelines for treatment, highly principled and directive, relatively stable and standardized, such as routine vs. contrary treatment, treating the manifestation vs. the root cause, supporting healthy Qi vs. eliminating pathogens. Therapeutic methods are specific treatment strategies, approaches, and measures formulated under certain principles, relatively specific and flexible with diversity, such as diaphoresis, emesis, purgation, harmonization, clearing, etc."
+    },
+    "Initial Progress Note": {
+      "Basic Patient Information": "Basic information of the patient, including name, gender, age, etc.",
+      "Record Time": "Time when the initial progress note is written.",
+      "Case Characteristics": "A summary of the case features after comprehensive analysis, organization, and synthesis of the patient's history, physical examination, and auxiliary examinations, including positive findings and negative symptoms/signs significant for differential diagnosis.",
+      "Preliminary Diagnosis": "The diagnosis made by the attending physician based on a comprehensive analysis of the patient's condition at the time of admission. If there are multiple preliminary diagnoses, they should be listed in order of importance. For undiagnosed cases, the most likely diagnoses should be listed.",
+      "Diagnostic Basis": "The analysis content used by the physician to make the diagnosis, including symptoms, signs, laboratory and auxiliary examination results, etc.",
+      "Differential Diagnosis": "Diagnoses highly similar to the preliminary diagnosis. When writing, the key differentiating points, such as laboratory or auxiliary examination results, must be clearly described.",
+      "Management Plan": "Plans and measures for investigations and treatment formulated based on the patient's condition."
+    },
+    "Daily Progress Note": {
+      "Basic Patient Information": "Basic information of the patient, including name, gender, age, etc.",
+      "Record Time": "Time when the daily progress note is written.",
+      "Daily Orders": "Orders issued by the physician on a daily basis, including medication, investigations, treatments, etc.",
+      "Treatment Plan": "Diagnostic and treatment plans and measures formulated by the attending physician based on changes in the patient's condition.",
+      "Unstructured Long Text": "The complete content of a single full daily progress note."
+    },
+    "Consultation Record": {
+      "Basic Patient Information": "Basic information of the patient, including name, gender, age, etc.",
+      "Record Time": "Time when the consultation record is written.",
+      "Consultation Type": "Classification of the consultation based on urgency or scope, such as emergency consultation, routine consultation, etc.",
+      "Requesting Department": "Name of the department requesting the consultation.",
+      "Consulting Department": "Name of the department responding to the consultation.",
+      "Request Time": "Time when the consultation was requested.",
+      "Consultation Time": "Time when the consultation was performed.",
+      "Preliminary Diagnosis": "The diagnosis made by the attending physician based on a comprehensive analysis of the patient's condition at the time of admission. If there are multiple preliminary diagnoses, they should be listed in order of importance. For undiagnosed cases, the most likely diagnoses should be listed.",
+      "Admission Diagnosis": "The diagnosis confirmed by the attending physician or higher based on the patient's condition after admission.",
+      "Current Diagnosis": "All diagnoses of the patient at the time of consultation.",
+      "Brief History and Treatment Course": "Brief history generally includes key information such as the patient's main symptoms at admission, signs, diagnostic auxiliary examination results, relevant past medical history, and the treatment course after admission.",
+      "Reason and Purpose for Consultation": "Reason why the patient requires consultation, such as critical illness, complex case, inability to diagnose and treat promptly, complications, suspected/confirmed disease in another specialty, etc.",
+      "Treatment Plan": "Plans and measures for investigations and treatment formulated based on the patient's condition during consultation.",
+      "Auxiliary Examinations": "Auxiliary examination items required during consultation.",
+      "Consultation Opinion": "Treatment plans and measures formulated based on the specific situation of the consulted patient."
+    },
+    "Operation Record": {
+      "Basic Patient Information": "Basic information of the patient, including name, gender, age, etc.",
+      "Record Time": "Time when the operation record is written.",
+      "Operation Time": "Start and end time of the operation.",
+      "Preoperative Diagnosis": "The diagnosis made by the physician based on a comprehensive analysis of the patient's symptoms, signs, examination results, etc., before the operation.",
+      "Postoperative Diagnosis": "The diagnosis made by the physician based on the preoperative diagnosis, operative findings, etc., after the operation.",
+      "Operation Name": "Name of the surgical procedure performed on the patient.",
+      "Operation Level": "Level assigned based on the difficulty, complexity, and risk of the procedure to be performed, generally divided into four levels.",
+      "Surgeon": "Name of the lead surgeon performing the operation.",
+      "Assistant Surgeon": "Name of the physician assisting the lead surgeon.",
+      "Nurse": "Name of the nurse assisting the lead surgeon.",
+      "Anesthesiologist": "Name of the physician administering anesthesia.",
+      "Anesthesia Method": "Anesthesia method required for the operation.",
+      "Anesthetic Agent": "Anesthetic medication used.",
+      "Operation Process": "The operation process generally includes the patient's position, skin disinfection and draping method, surgical incision, exposure method, exploration process and findings, main steps of the procedure, type and size of sutures used, suturing method, drainage materials and their placement location and number, nature and quantity of aspirated material and removed specimens, specimens sent for testing, culture, and pathological examination, patient condition and anesthetic effect during and at the end of the operation, estimated blood loss and transfusion volume, content and volume of infused fluids, etc.",
+      "Intraoperative Medications": "Medications used during the surgical procedure."
+    },
+    "Postoperative Initial Note": {
+      "Basic Patient Information": "Basic information of the patient, including name, gender, age, etc.",
+      "Record Time": "Time when the postoperative initial note is written.",
+      "Operation Time": "Time of the patient's operation.",
+      "Preoperative Diagnosis": "The diagnosis made by the physician based on a comprehensive analysis of the patient's symptoms, signs, examination results, etc., before the operation.",
+      "Postoperative Diagnosis": "The diagnosis made by the physician based on the preoperative diagnosis, operative findings, etc., after the operation.",
+      "Operation Name": "Name of the surgical procedure performed on the patient.",
+      "Anesthesia Method": "Anesthesia method required for the operation.",
+      "Operation Process": "The operation process generally includes the patient's position, skin disinfection and draping method, surgical incision, exposure method, exploration process and findings, main steps of the procedure, type and size of sutures used, suturing method, drainage materials and their placement location and number, nature and quantity of aspirated material and removed specimens, specimens sent for testing, culture, and pathological examination, patient condition and anesthetic effect during and at the end of the operation, estimated blood loss and transfusion volume, content and volume of infused fluids, etc.",
+      "Postoperative Management Measures": "Measures taken to prevent and reduce postoperative complications and promote early recovery of the surgical patient, such as postoperative infection prevention, etc.",
+      "Postoperative Precautions": "Key points and items requiring close observation after surgery, such as the condition of drain output, etc."
+    },
+    "Discharge Summary": {
+      "Basic Patient Information": "Basic information of the patient, including name, gender, age, etc.",
+      "Record Time": "Time when the discharge summary is written.",
+      "Department": "Department where the patient was hospitalized.",
+      "Admission Time": "Time when the patient was admitted.",
+      "Discharge Time": "Time when the patient was discharged.",
+      "Admission Diagnosis": "The diagnosis confirmed by the attending physician or higher based on the patient's condition after admission.",
+      "Discharge Diagnosis": "The final diagnosis made by the physician upon discharge, based on a comprehensive analysis of the admission diagnosis, various tests, treatments, surgeries, pathological diagnoses, and outcomes during hospitalization.",
+      "Admission Condition": "The patient's main symptoms at admission, signs, relevant auxiliary examination results, significant past medical history, etc.",
+      "Treatment Course": "Changes in the patient's condition during hospitalization, diagnosis, treatment, and efficacy, such as meaningful auxiliary examination results, names, courses, and dosages of main medications used, dates of surgical procedures performed, operation names, pathology reports, complications and adverse reactions during diagnosis and treatment, and any remaining issues during diagnosis and treatment.",
+      "Discharge Condition": "The patient's general condition, symptoms, signs, and auxiliary examination results of significant reference value for the patient's future at the time of discharge.",
+      "Discharge Orders": "Discharge orders include matters needing attention regarding diet, rest, rehabilitation, etc., after discharge; specific names, dosages, and usage of medications to be taken after discharge; whether follow-up is needed and under what circumstances; follow-up schedule; specific content for regular follow-up visits, such as removal of indwelling tubes, required re-examination items or indicators, time for suture removal, etc."
+    },
+    "Death Record": {
+      "Basic Patient Information": "Basic information of the patient, including name, gender, age, etc.",
+      "Record Time": "Time when the death record is written.",
+      "Department": "Department where the patient was hospitalized.",
+      "Admission Time": "Time when the patient was admitted.",
+      "Death Time": "Time when the patient died.",
+      "Admission Diagnosis": "The diagnosis confirmed by the attending physician or higher based on the patient's condition after admission.",
+      "Admission Condition": "The patient's main symptoms at admission, signs, relevant auxiliary examination results, significant past medical history, etc.",
+      "Treatment Course": "The progression of the condition and the diagnosis/treatment or resuscitation process after admission, with emphasis on the changes in condition before death, the resuscitation process, and the time of death (accurate to the minute), etc.",
+      "Cause of Death": "The direct cause leading to the patient's death.",
+      "Death Diagnosis": "Includes all diseases diagnosed before the patient's death."
+    }
+  },
+  "Section": {
+    "Admission Record": "The admission record is a document written by the attending physician after the patient's admission, based on history taking, physical examination, and already obtained laboratory and auxiliary examination data, and after summarizing and analyzing this information. It generally includes general items, chief complaint, history of present illness, past medical history, personal history, menstrual/obstetric history, family history, physical examination, auxiliary examinations, preliminary diagnosis, admission diagnosis, and physician's signature.",
+    "Initial Progress Note": "The initial progress note is the first progress note written by the attending physician or the physician on duty after the patient's admission. It generally includes the recording date and time, case characteristics, discussion of proposed diagnosis, and management plan.",
+    "Daily Progress Note": "Daily progress notes include 'Attending Physician Ward Round Records' and 'Postoperative Progress Notes', primarily recording the frequent, continuous documentation of the patient's diagnosis and treatment process during hospitalization. When writing a daily progress note, first indicate the recording time, then record the specific content.",
+    "Consultation Record": "A consultation record refers to the documentation written respectively by the requesting physician and the consulting physician when a patient requires assistance from another department or another medical institution during hospitalization. It generally includes the consultation opinion, the name of the consulting physician's department or medical institution, the consultation time, and the consulting physician's signature, etc.",
+    "Operation Record": "An operation record is a special document written by the surgeon reflecting the general situation of the operation, the operative process, intraoperative findings, and management. It should be completed within 24 hours after the operation. It generally includes basic items such as general information, operation date, operation time, preoperative diagnosis, intraoperative diagnosis, operation name, surgeon and assistants, nurse's name, anesthesia method and anesthesiologist, as well as the operative process and intraoperative occurrences and management.",
+    "Postoperative Initial Note": "The postoperative initial progress note is a progress note completed immediately after the operation by the surgeon who participated in the surgery. It generally includes the operation time, operation name, intraoperative diagnosis, anesthesia method, surgical approach, brief operative process, name, quantity, and location of drains, handling of surgical specimens. The patient's intraoperative condition, such as vital signs, abnormal reactions, estimated blood loss, blood transfusion, fluid infusion volume and medications used, anesthetic effect. The patient's condition upon returning to the ward, with special attention to items requiring observation, etc.",
+    "Discharge Summary": "A discharge summary is a concluding record of the patient's diagnosis and treatment during this hospitalization written by the attending physician. It should be completed within 24 hours after the patient's discharge. It generally includes the patient's name, gender, age, admission date, discharge date, admission diagnosis, discharge diagnosis, admission condition, treatment course, discharge condition, discharge orders and precautions, physician's signature, etc.",
+    "Death Record": "A death record is a document written by the attending physician after the patient's death. It generally includes the patient's name, gender, age, department, admission time, death time, admission diagnosis, admission condition, treatment course, cause of death, death diagnosis, physician's signature, etc."
+  }
+}

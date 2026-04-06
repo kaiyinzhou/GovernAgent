@@ -1,0 +1,74 @@
+{
+  "sections": {
+    "cz": [
+      "(1) The 'Copy Start Character' and 'Copy End Character' must come from the 'Medical Record Text' and be directly findable in the 'Medical Record Text' using 'in' logic."
+    ],
+    "ll": [
+      "(1) Daily progress notes do not contain case characteristics; fields containing case characteristics are more likely to be part of the initial progress note.",
+      "(2) The 'Copy Start Character' and 'Copy End Character' must come from the 'Medical Record Text' and be directly findable in the 'Medical Record Text' using 'in' logic.",
+      "(3) Time points are usually important segmentation points. They may indicate the start of a new section or the end of the current section.",
+      "(4) In this institution, the initial progress note is easily mixed with daily progress notes. Pay attention to segmentation; they often use time as an important segmentation marker.",
+      "(5) In this institution, daily progress notes are usually recorded continuously together and use time as an important segmentation marker. Identify and segment them accurately.",
+      "(6) There is likely a segmentation point between the physician's signature and the time, e.g., 'Progress Note... Physician Signature: Kang** 20221101 08:12 Today's Ward Round...', where 'Physician Signature: Kang**' is the start of a daily progress note, and '20221101 08:12 Today's Ward Round' is the start of a new daily progress note.",
+      "(7) A record has only one record time. If the record time appears at the beginning, it will not appear again at the end, and vice versa."
+    ],
+    "ah": [
+      "(1) Time points are usually important segmentation points. They may indicate the start of a new section or the end of the current section.",
+      "(2) The 'Copy Start Character' and 'Copy End Character' must come from the 'Medical Record Text' and be directly findable in the 'Medical Record Text' using 'in' logic."
+    ],
+    "nj": [
+      "(1) The 'Copy Start Character' and 'Copy End Character' must come from the 'Medical Record Text' and be directly findable in the 'Medical Record Text' using 'in' logic."
+    ],
+    "wh": [
+      "(1) The 'Copy Start Character' and 'Copy End Character' must come from the 'Medical Record Text' and be directly findable in the 'Medical Record Text' using 'in' logic.",
+      "(2) Progress notes may contain 'Discharge Medications'; in such cases, the record should still be identified as a 'Daily Progress Note'.",
+      "(3) Pay attention to distinguishing between the admission record and the initial progress note. If the record contains 'Differential Diagnosis', it is considered an initial progress note."
+    ],
+    "mimic": [
+      "(1) The section start position is 'Name: ___ Unit No: ___'. The end position is 'Followup Instructions: ___'.",
+      "(2) Data may contain the issue of multiple 'Discharge Summaries' being mixed together. In this case, all discharge summaries need to be extracted simultaneously."
+    ]
+  },
+  "fields": {
+    "cz": [
+      "(1) The 'Basic Patient Information' field usually contains patient age, gender, and other information.",
+      "(2) The 'Copy Start Character' and 'Copy End Character' must come from the 'Medical Record Text' and be directly findable in the 'Medical Record Text' using 'in' logic."
+    ],
+    "ll": [
+      "(1) The 'Basic Patient Information' field usually contains patient age, gender, and other information.",
+      "(2) The 'Copy Start Character' and 'Copy End Character' must come from the 'Medical Record Text' and be directly findable in the 'Medical Record Text' using 'in' logic."
+    ],
+    "ah": [
+      "(1) The 'Basic Patient Information' field usually contains patient age, gender, and other information.",
+      "(2) 'Treatment Plan' refers to diagnostic and therapeutic actions planned for execution, such as those intended for the current day; these are also considered part of the 'Treatment Plan'.",
+      "(3) The 'Copy Start Character' and 'Copy End Character' must come from the 'Medical Record Text' and be directly findable in the 'Medical Record Text' using 'in' logic."
+    ],
+    "nj": [
+      "(1) For daily orders, even brief descriptions like 'Detailed description of医嘱 contents' need to be extracted.",
+      "(2) 'Treatment Plan' can also be expressed in forms like 'Recommend...' or 'Propose...', such as follow-up treatment suggestions. In such cases, it should be extracted as 'Treatment Plan'.",
+      "(3) Distinguish between 'Anesthetic Agent' and 'Intraoperative Medications'. They must be extracted separately and not be confused.",
+      "(4) 'Treatment Plan' must refer to actions that have not yet occurred. If a diagnostic or therapeutic measure has already been implemented, it cannot be extracted as a treatment plan.",
+      "(5) 'Operation Name' is a specific name and might also be recorded within the operation process field.",
+      "(6) 'Admission Condition' usually includes the patient's chief complaint, history of present illness, general condition, physical examination, specialty examination information, etc.",
+      "(7) The 'Copy Start Character' and 'Copy End Character' must come from the 'Medical Record Text' and be directly findable in the 'Medical Record Text' using 'in' logic.",
+      "(8) Do not extract duplicate information. Extract the same field only once."
+    ],
+    "wh": [
+      "(1) Basic information such as the patient's chief complaint and history of present illness cannot be considered part of the 'Treatment Course'.",
+      "(2) The 'Copy Start Character' and 'Copy End Character' must come from the 'Medical Record Text' and be directly findable in the 'Medical Record Text' using 'in' logic.",
+      "(3) The consulting department is the department performing the consultation and needs to be distinguished from the 'Requesting' department. In this medical institution's data, it is usually located at the end or beginning of the consultation record.",
+      "(4) Pay attention to distinguish the discharge date from the date of the discharge summary itself; differentiate them during extraction.",
+      "(5) When there is no clear 'Record Time introductory word', the physician's signature time can be used as the record time. It is usually located at the end of the record.",
+      "(6) 'Treatment Plan' must refer to actions that have not yet occurred. If a diagnostic or therapeutic measure has already been implemented, it cannot be extracted as a treatment plan.",
+      "(7) The 'Anesthesia Method' field may not always have a clear introductory word and might appear within the operation process. In such cases, it still needs to be extracted separately.",
+      "(8) In this medical institution's data, OP_TIME2 refers to 'Operation Time'.",
+      "(9) There might not be a separate field for intraoperative medications. If medications other than anesthetic agents appear in the operation process description, they are considered 'Intraoperative Medications'."
+    ],
+    "mimic": [
+      "(1) The format for basic patient information is relatively fixed, e.g., 'Name: ___ Unit No: ___ Admission Date: ___ Discharge Date: ___ Date of Birth: ___ Sex: M Service: MEDICINE'.",
+      "(2) Both admission date and discharge date might be empty, indicated by '___'. In such cases, they still need to be extracted. For example, 'Admission Date: ___'.",
+      "(3) Discharge condition usually starts with fields like 'Discharge Condition' or 'Discharge Disposition'.",
+      "(4) The 'Copy Start Character' and 'Copy End Character' must come from the 'Medical Record Text' and be directly findable in the 'Medical Record Text' using 'in' logic. Letter case must be consistent with the original text."
+    ]
+  }
+}
